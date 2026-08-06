@@ -2,8 +2,8 @@
 class p4 {
 
     public static void main(String[] args) {
-        int roundCode = 4;
-        int attemptsUsed = 2;
+        int roundCode = 3;
+        int attemptsUsed = 3;
         int maxAttempts = 3;
         String roundName;
 
