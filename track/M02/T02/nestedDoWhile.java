@@ -1,5 +1,5 @@
 
-class p6 {
+class nestedDoWhile {
 
     public static void main(String[] args) {
         int i = 1;

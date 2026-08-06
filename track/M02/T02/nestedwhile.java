@@ -1,5 +1,5 @@
 
-class p5 {
+class nestedwhile {
 
     public static void main(String[] args) {
         int i = 1;
