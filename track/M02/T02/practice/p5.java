@@ -9,11 +9,11 @@ class p5 {
         int targetSessions = 7;
         int completedSessions = 0;
 
-        for (int i = 1; i <= practiceDays; i++) {
+        for (int i = finalDaySessionLimit; i <= practiceDays; i++) {
             if (i == revisionDay) {
                 continue;
             }
-            for (int j = 1; j <= 2; j++) {
+            for (int j = finalDaySessionLimit; j <= sessionsPerDay; j++) {
                 if (i == practiceDays && j == 2) {
                     break;
                 }
