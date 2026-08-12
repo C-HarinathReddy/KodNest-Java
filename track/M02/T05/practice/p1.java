@@ -4,12 +4,10 @@ import java.util.Scanner;
 class OrderCalculator {
 
     int calculateSubtotal(int price, int quantity) {
-        // Return price multiplied by quantity
         return price * quantity;
     }
 
     int calculateFinalTotal(int subtotal, int deliveryCharge) {
-        // Return subtotal plus delivery charge
         return subtotal + deliveryCharge;
     }
 }
@@ -23,12 +21,11 @@ public class p1 {
         int quantity = scanner.nextInt();
         int deliveryCharge = scanner.nextInt();
 
-        // Create one OrderCalculator object
         OrderCalculator oc = new OrderCalculator();
-        // Call both methods
-        //int a = oc.calculateSubtotal();
-        System.out.println("Subtotal: " + oc.calculateSubtotal(price, quantity));
-        System.out.println("Final Total: " + oc.calculateFinalTotal(oc.calculateSubtotal(price, quantity), deliveryCharge));
-        // Print the returned values
+        int r1 = oc.calculateSubtotal(price, quantity);
+        int r2 = oc.calculateFinalTotal(r1, deliveryCharge);
+
+        System.out.println("Subtotal: " + r1);
+        System.out.println("Final Total: " + r2);
     }
 }
