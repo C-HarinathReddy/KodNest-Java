@@ -11,7 +11,7 @@ public class arrayForLoop {
             a[i] = sc.nextInt();
         }
         int sum = 0;
-        System.out.print1("Arrays elements are : ");
+        System.out.print("Arrays elements are : ");
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
             sum += a[i];
